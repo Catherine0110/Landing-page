@@ -2,7 +2,7 @@
 
 # Demo page
 
-https://catherine0110.github.io/
+https://catherine0110.github.io/Landing-page/
 
 # 🛠 Технологии:
 
