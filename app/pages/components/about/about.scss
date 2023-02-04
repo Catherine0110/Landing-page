@@ -1,0 +1,12 @@
+.about {
+    &__inner {
+        max-width: 540px;
+        margin: 0 auto;
+    }
+    
+    &__title,
+    &__text {
+        text-align: center;
+        width: 100%;
+    }
+}

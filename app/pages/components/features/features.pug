@@ -1,0 +1,12 @@
+.features
+    .container 
+        .features__inner 
+            -let url = "assets/images/about-project-icon.svg";
+            -let textCounter = '40+';
+            -let text = 'проектов';
+            -for(let i = 0; i < 6; i++)
+                .features__item
+                    img(src=url, alt="about-icon").features__icon
+                    .features__text
+                        span.features__text-counter #{textCounter}
+                        span.features__text-inner #{text}

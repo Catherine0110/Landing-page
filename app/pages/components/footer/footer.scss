@@ -1,0 +1,43 @@
+.footer {
+    padding: 50px 0;
+    background: $color-base;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        @media (max-width: $mobile) {
+            display: block;
+        }
+    }
+    &__copyright {
+        margin-right: 50px;
+        @media (max-width: $mobile) {
+            text-align: center;
+            margin-bottom: 30px;
+            margin-right: 0;
+        }
+    }
+    &__copyright-name {
+        display: block;
+        color: #fff;
+        font-weight: 500;
+        margin-bottom: 20px;
+        font-size: 21px;
+    }
+    &__copyright-text {
+        color: #fff;
+        font-size: 13px;
+    }
+    &__social {
+        @media (max-width: $mobile) {
+            text-align: center;
+        }
+        img {
+            max-width: 44px;
+            &:not(:first-child) {
+                margin-left: 22px;
+            }
+        }
+    }
+}
